@@ -40,3 +40,18 @@ npm is the standard package manager for Node.js
 npm install <package name>
 
 ```
+
+
+
+<h2>Installing Packages </h2>
+
+* node_modules  - the node_modules folder contains every installed dependency for your project 
+
+* package-lock.json - It records the exact version of every installed dependency, including its sub-dependencies and their version
+
+* package.json -  the package json file contians desprictive and functional metadata about a project, such as a name, version and dependencies 
+
+```sh 
+npm init 
+
+```
