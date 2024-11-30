@@ -30,3 +30,13 @@ NPM - node package manager
 npm is the standard package manager for Node.js
 * Library of packages 
 * Command Line Tool
+
+
+< hr />
+
+<h2> Installing Packages </h2>
+
+```sh
+npm install <package name>
+
+```
