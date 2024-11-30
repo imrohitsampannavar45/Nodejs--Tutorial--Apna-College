@@ -55,3 +55,50 @@ npm install <package name>
 npm init 
 
 ```
+<h2>Local v/s Global </h2>
+
+```sh
+npm install -g <package name>
+
+npm link <package name>
+
+```
+
+<h2> require v/s import </h2>
+
+```sh
+import {sum} from './math.js'
+```
+
+* We cant selectively load only the pieces we nedd with require but with import, we can selectively load only the pieces we need, which can save memory 
+
+* Loading is synchronous for 'require' but can be asynchronous for  'import'.
+
+<hr />
+
+
+<h2>Library v/s Framework </h2>
+
+<h3>Library</h3>
+A library is a collection of pre-written code that can be used to perform specific tasks 
+
+eg- Axios
+
+
+<h3>Framework </h3>
+A framework is a set of pre-written code that provides a structure for developing software applications 
+
+eg - express
+
+<hr />
+
+<h2>Express </h2>
+
+*  A node js web application framework that helps us to make web application 
+
+* it is used for server side programming.
+
+1. Listen for incoming requests 
+2. Parse the data 
+3. to match response with routes eg- (www.google.com/search)
+4. to send suitable response 
