@@ -102,3 +102,11 @@ eg - express
 2. Parse the data 
 3. to match response with routes eg- (www.google.com/search)
 4. to send suitable response 
+
+ 
+* Ports are the logical endpoints of a network connection that is used to exchange information between a web server and a web client.
+================================
+<h2> Routing </h2>
+
+* it is a process of selecting a path for traffic in a network or between or across multiple networks
+
